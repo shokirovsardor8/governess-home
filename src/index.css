@@ -29,13 +29,13 @@ a{
 
 .home-img{
   
-  background-image: url('./images/depositphotos_70931673_l-2015.jpg');
+  background-image: url('./images/fgsdgdfgdfgs.jpg');
   background-position: center;
   background-size: cover;
   height: 100vh;
 }
 .faoliyatimiz{
-  background-image: url('./images/b95eb2783acbfda4a4623f080381ee8d.jpg');
+  background-image: url('./images/hkjdfhdadsk.jpg');
   background-position: center;
   background-size: cover;
 }
@@ -53,20 +53,20 @@ a{
 .bg-image{
   background-position: center;
   background-size: cover;
-  height: 320px;
+  height: 500px;
   width: 100%;
 }
 .bostonliq{
-  background-image: url('./images/3516-600x372.jpg');
+  background-image: url('./images/dklsjfhsafjlk.jpg');
 }
 .nurafshon{
-  background-image: url('./images/depositphotos_70931673_l-2015.jpg');
+  background-image: url('./images/skladjlaksfl.jpg');
 }
 .ishlab{
-  background-image: url('./images/155582.jpg');
+  background-image: url('./images/zavod.png');
 }
 .ovqat-tay{
-  background-image: url('./images/20180412185128-7632.jpg');
+  background-image: url('./images/hkjdfhdadsk.jpg');
 }
 
 .carousel-indicators{
@@ -85,8 +85,10 @@ a{
 
 .centerr{
   top: 50%;
-  /* left: 50%; */
-  transform: translate(0, 50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: #00394f; */
+  position: absolute;
 }
 .round-icon{
   border-radius: 50%;
@@ -151,7 +153,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   /* font-family: "Handlee", cursive; */
   /* font-weight: bold; */
   line-height: 1.2;
-  color: #00394f;
+  /* color: #00394f; */
 }
 
 .nav-link {

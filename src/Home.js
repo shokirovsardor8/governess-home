@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from './images/logo.jpg'
+import logo from './images/logo.png'
 import header from './img/header.png'
 import about1 from './img/about-1.jpg'
 import about2 from './img/about-2.jpg'
@@ -9,10 +9,10 @@ import { GiSpikedFence } from 'react-icons/gi'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faClock, faEnvelope, faMapMarkerAlt, faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
 import { FaFacebookF, FaTelegramPlane, FaLinkedinIn, FaInstagram, FaTwitter, FaShippingFast, FaWarehouse } from 'react-icons/fa'
-import { BiFoodMenu} from 'react-icons/bi'
-import { FcIdea} from 'react-icons/fc'
-import { TbMilk} from 'react-icons/tb'
-import { MdOutlineLocalShipping} from 'react-icons/md'
+import { BiFoodMenu } from 'react-icons/bi'
+import { FcIdea } from 'react-icons/fc'
+import { TbMilk } from 'react-icons/tb'
+import { MdOutlineLocalShipping } from 'react-icons/md'
 import { AiFillPhone } from 'react-icons/ai'
 import { BsCheckLg } from 'react-icons/bs'
 import icon16 from './images/16.svg'
@@ -69,14 +69,14 @@ function Home() {
             </Navbar>
 
             <div class="container-fluid  mb-5 home-img px-0 position-relative" id='home'>
-                <div className='aaaaa w-100 px-0 px-md-5 position-absolute text-center'>
-                    <div className='centerr row d-flex justify-content-around'>
+                <div className='aaaaa w-100 px-0 px-md-5 text-center'>
+                    <div className='centerr row d-flex justify-content-around col-md-12 col-12'>
                         {/* <div className='col-md-3'>
                         </div> */}
                         <div className='col-md-9'>
                             <h4 className='text-white mb-4 mt-5 mt-lg-0 text-uppercase'>Autsorsing usulida ovqatlantirish</h4>
                             <h2 class="display-3 font-weight-bold text-white">Aqlan teran, jismonan sog‘lom, Barkamol – kelajak avlod uchun!</h2>
-                            <h4 class="text-white mb-4 mt-5 mt-lg-0">Ayni damda Toshkent viloyati Nurafshon shahar va Bo‘stonliq tuman maktabgacha ta’lim bo’limi tasarrufidagi 30 ta davlat maktabgacha ta’lim tashkilotlari Autsorsing usulida ovqatlantirish tashkil etilgan.</h4>
+                            <h4 class="text-white mb-4 mt-lg-0">Ayni damda Toshkent viloyati Nurafshon shahar va Bo‘stonliq tuman maktabgacha ta’lim bo’limi tasarrufidagi 30 ta davlat maktabgacha ta’lim tashkilotlari Autsorsing usulida ovqatlantirish tashkil etilgan.</h4>
                             {/* <h4 class="text-white mb-4">Aqlan teran, jismonan sog‘lom, Barkamol ​– kelajak avlod uchun!</h4> */}
                             <a href="" class="btn btn-success mt-1 py-3 px-5">Batafsil</a>
                         </div>
@@ -94,7 +94,7 @@ function Home() {
                     <button className='btn btn-success text-uppercase'>Kanalga qo'shilish</button>
                     <div class="row mt-5">
                         <div class="col-lg-3 col-md-6 pb-1">
-                            <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style={{ padding: '30px' }}>
+                            <div class="bg-light shadow rounded mb-4" style={{ padding: '30px' }}>
                                 <div class="pl-4">
                                     <p style={{ fontSize: "70px" }} className='fw-bold text-primary'>44</p>
                                     <p class="m-0">Davlat maktabgacha ta'lim tashkilotlari</p>
@@ -102,7 +102,7 @@ function Home() {
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 pb-1">
-                            <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style={{ padding: '30px' }}>
+                            <div class="bg-light shadow rounded mb-4" style={{ padding: '30px' }}>
                                 <div class="pl-4">
                                     <p style={{ fontSize: "70px" }} className='fw-bold text-primary'>3512</p>
                                     <p class="m-0">3-4 yoshli guruh tarbiyalanuvchilari</p>
@@ -110,7 +110,7 @@ function Home() {
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 pb-1">
-                            <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style={{ padding: '30px' }}>
+                            <div class="bg-light shadow rounded mb-4" style={{ padding: '30px' }}>
                                 <div class="pl-4">
                                     <p style={{ fontSize: "70px" }} className='fw-bold text-primary'>4342</p>
                                     <p class="m-0">4-7 yoshli guruh tarbiyalanuvchilari</p>
@@ -118,7 +118,7 @@ function Home() {
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 pb-1">
-                            <div class="d-flex bg-light shadow-sm border-top rounded mb-4" style={{ padding: '30px' }}>
+                            <div class="bg-light shadow rounded mb-4" style={{ padding: '30px' }}>
                                 <div class="pl-4">
                                     <p style={{ fontSize: "70px" }} className='fw-bold text-primary'>618</p>
                                     <p class="m-0">Qisqa muddatli guruh tarbiyalanuvchilari</p>
@@ -131,8 +131,8 @@ function Home() {
             </div>
             <div class="container-fluid pt-5 faoliyatimiz" id='about-us'>
                 <div class="container pb-3">
-                    <div className='text-center'>
-                        <h1 className='mb-3'>Faoliyatimiz</h1>
+                    <div className='text-center text-white'>
+                        <h1 className='mb-3 text-uppercase'>Faoliyatimiz</h1>
                         <p>Oziq-ovqat mahsulotlarini yetkazaish va ovqatlantirishni tashkil etish</p>
                     </div>
 
@@ -149,7 +149,7 @@ function Home() {
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 pb-1">
-                        <div class="d-flex rounded mb-4" style={{ padding: '30px', backgroundColor: "rgb(255, 255, 255, 0.8)" }}>
+                            <div class="d-flex rounded mb-4" style={{ padding: '30px', backgroundColor: "rgb(255, 255, 255, 0.8)" }}>
                                 <div className=''>
                                     <MdOutlineLocalShipping className="me-3 mt-2 p-3 font-weight-normal text-white round-icon" size={65} />
                                 </div>
@@ -193,7 +193,7 @@ function Home() {
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 pb-1">
-                        <div class="d-flex rounded mb-4" style={{ padding: '30px', backgroundColor: "rgb(255, 255, 255, 0.8)" }}>
+                            <div class="d-flex rounded mb-4" style={{ padding: '30px', backgroundColor: "rgb(255, 255, 255, 0.8)" }}>
                                 <div className=''>
                                     <FaShippingFast className="me-3 mt-2 p-3 font-weight-normal text-white round-icon" size={65} />
                                 </div>
@@ -425,7 +425,7 @@ function Home() {
                         <div class="col-lg-7 mb-5">
                             <div class="contact-form">
                                 <div id="success"></div>
-                                <form action='mailto:shokirovsardor8@gmail.com' id="contactForm" novalidate="novalidate">
+                                <form action='mailto:governes_business@gmail.com' id="contactForm" novalidate="novalidate">
                                     <div class="control-group">
                                         <input type="text" name='name' class="form-control" id="name" placeholder="Ism familiya" required="required" data-validation-required-message="Please enter your name" />
                                         <p class="help-block text-danger"></p>
@@ -465,7 +465,7 @@ function Home() {
                                 </div>
                                 <div class="ms-3">
                                     <h5>Elektron Pochta</h5>
-                                    <p>info@example.com</p>
+                                    <p>governes_business@gmail.com</p>
                                 </div>
                             </div>
                             <div class="d-flex">
@@ -492,14 +492,16 @@ function Home() {
                 </div>
             </div>
 
-            <div class="container-fluid bg-secondary text-white mt-5 py-5 px-sm-3 px-md-5">
+            <div class="container-fluid bg-secondary text-white mt-5 py-5 px-sm-3 px-md-5 text-center text-md-start">
                 <div class="row pt-5">
                     <div class="col-lg-3 col-md-6 mb-5">
                         <a href="" class="navbar-brand font-weight-bold text-primary m-0 mb-4 p-0" style={{ fontSize: "40px", lineHeight: "40px" }}>
                             <i ></i>
                             <span class="text-primary">Governess <br /> business</span>
                         </a>
-                        <p>Labore dolor amet ipsum ea, erat sit ipsum duo eos. Volup amet ea dolor et magna dolor, elitr rebum duo est sed diam elitr. Stet elitr stet diam duo eos rebum ipsum diam ipsum elitr.</p>
+                        <div className='d-flex justify-content-center'>
+                        <p className='m-3 ms-3 col-9 col-md-12'>Labore dolor amet ipsum ea, erat sit ipsum duo eos. Volup amet ea dolor et magna dolor, elitr rebum duo est sed diam elitr. Stet elitr stet diam duo eos rebum ipsum diam ipsum elitr.</p>
+                        </div>
                         <div class="d-flex justify-content-start mt-4">
                             {/* <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
                                 style={{width: "38px", height: "38px"}} href="#"><i class="fab fa-twitter"></i></a>
@@ -513,21 +515,21 @@ function Home() {
                     </div>
                     <div class="col-lg-3 col-md-6 mb-5">
                         <h3 class="text-primary mb-4">Aloqa ma`lumotlari</h3>
-                        <div class="d-flex">
+                        <div class="">
                             <h4 class="fa fa-map-marker-alt text-primary"></h4>
                             <div class="pl-3">
                                 <h5 class="text-white">Manzil</h5>
                                 <p>Toshkent viloyati Bektemir tumani</p>
                             </div>
                         </div>
-                        <div class="d-flex">
+                        <div class="">
                             <h4 class="fa fa-envelope text-primary"></h4>
                             <div class="pl-3">
                                 <h5 class="text-white">Email</h5>
                                 <p>governes_business@gmail.com</p>
                             </div>
                         </div>
-                        <div class="d-flex">
+                        <div class="">
                             <h4 class="fa fa-phone-alt text-primary"></h4>
                             <div class="pl-3">
                                 <h5 class="text-white">Telefon</h5>
@@ -547,7 +549,7 @@ function Home() {
                     </div>
                     <div class="col-lg-3 col-md-6 mb-5">
                         <h3 class="text-primary mb-4">Murojaat uchun</h3>
-                        <form action="">
+                        <form action="" className='col-6 col-md-12 mx-auto'>
                             {/* <div class="form-group"> */}
                             <input type="text" class="form-control border-0 py-3 mb-3" placeholder="Ism Familiya" required />
                             {/* </div> */}
